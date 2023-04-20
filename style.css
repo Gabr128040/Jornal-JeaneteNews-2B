@@ -1,22 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Slab&display=swap');
+
+
 * {
   border:0;
   padding: 0;
   margin: 0;
   box-sizing: box-border;
+  font-family: 'Roboto Slab', serif;
+  text-decoration: none;
+}
+
+body {
+  background-color: beige;
 }
 
 header {
   height: 3em;
-  background: hsl(142, 70.6%, 45.3%);
+  background-color: limegreen;
   display: flex;
   align-items: center;
   justify-content:space-around;
 }
 
-nav {
-  display: none;
-}
 
 .span-header {
-  font-size: 1.5em;
+  font-size: 1.8em;
+  font-family: 'Anton', sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+nav {
+
+}
+
+.ul-nav {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  justify-content: space-around;
+  gap: 32px;
+}
+
+.ul-nav-item-ancor {
+  color: rgb(255, 255, 255);
+}
+
+main {
+  margin: 30px;
+  margin-top: 32px;
+  padding: 15px;
+  border-radius: 2px;
+  background-color: white;
+  border: 2px solid black;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 32px;
+}
+
+section {
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.section-welcome {
+  display: flex;
+  align-items: center;
+  justify-content: space-around
+}
+
+#welcome-gif_blog {
+  width: 40%;
 }
