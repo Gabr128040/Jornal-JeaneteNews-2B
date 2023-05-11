@@ -7,12 +7,31 @@
     box-sizing: border-box;
     color: rgb(0, 0, 0);
     font-family: 'Libre Baskerville', serif;
-    font-size: 14px;
+}
+
+@media screen and (min-width: 1000px){
+  
+  
+  main {
+    margin: auto;
+  }
+  
+  .section-apre {
+    flex-direction: row;
+  }
+  
+  .section-preview {
+    width: 90%;
+  }
+  
+  .but {
+    width: ;
+  }
+  
 }
 
 body {
-    background-image: url(Images/7403975-material-escolar-fundo-padrao-sem-costura-vetor\ \(2\).jpg);
-
+  background-image: url(Images/7403975-material-escolar-fundo-padrao-sem-costura-vetor\ \(2\).jpg);
 }
 
 hr {
@@ -27,7 +46,7 @@ hr {
 }
 
 header {
-    background-color: rgb(236, 233, 233);
+    background-color: hsl(0, 0%, 9%) ;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -36,27 +55,28 @@ header {
 
 .span-header{
     font-family: 'Kanit', sans-serif;
-    font-size: 26px;
+    font-size: 6vw;
     font-weight: 600;
+    color: rgb(236, 233, 233);
 }
 
 main {
     background-color: rgba(0, 0, 0, 0.726);
-    padding: 10px;
+    padding: 2vh;
 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     gap: 32px;
-
+    align-items: center;
+    
 }
 
 section {
     background-color: rgb(236, 233, 233);;
 
-    padding: 10px;
+    padding: 1.6vh;
     border-radius: 4px;
-
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -78,12 +98,17 @@ section {
 }
 
 .h2-apre {
-    font-size: 32px;
+    font-size: 2em;
     font-family: 'Kanit', sans-serif;
 }
 
 .gif-apre {
     width: 100%;
+}
+
+.sect-pm {
+  text-align: center;
+  width: 80%;
 }
 
 .section-manch {
@@ -99,7 +124,7 @@ section {
 }
 
 .h1-manch {
-    font-size: 4vh;
+    font-size: 1.2em;
 }
 
 .div-manch_dds {
@@ -109,8 +134,7 @@ section {
 
 .div-dds {
     display: flex;
-    gap: 4px;
-    align-items: center;
+    gap: 6px;
 }
 
 .img-manch {
@@ -118,13 +142,14 @@ section {
 }
 
 .manchete {
+    font-size:0.8em ;
     display: flex;
     flex-direction: column;
     gap: 18px;
 }
 
 li{
-    font-size: 10px;
+    font-size: 0.8em;
     margin: 10px;
     margin-left: 16px;
 }
@@ -134,10 +159,59 @@ li{
 }
 
 .section-preview {
-    gap: 8.5px;
+    gap: 14px;
     padding: 12px;
 }
 
 .h3-preview {
     font-size: 16.5px;
+}
+
+.preview-dds {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.but {
+  width: 12rem;
+  border-radius: 4px;
+  background: hsl(43, 96.4%, 56.3%);
+  border:none;
+  height: 2rem;
+  text-decoration: none;
+}
+
+
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 8vh;
+  background: hsl(0, 0%, 9%);
+}
+
+.span-header-f {
+  font-family: 'Kanit', sans-serif;
+  font-size: 4.5vw;
+  font-weight: 600;
+  color: rgb(236, 233, 233);
+}
+
+.but-vp {
+   width: 14rem;
+   border-radius: 4px;
+   background: hsl(142, 69.2%, 58%);
+   border:none;
+   height: 2rem;
+   font-size: 0.8rem;
+}
+
+.div-ots {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
 }
