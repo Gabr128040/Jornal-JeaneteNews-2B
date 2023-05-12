@@ -2,36 +2,19 @@
 
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: rgb(0, 0, 0);
-    font-family: 'Libre Baskerville', serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  font-family: 'Libre Baskerville', serif;
+  box-shadow: unset;
 }
 
-@media screen and (min-width: 1000px){
-  
-  
-  main {
-    margin: auto;
-  }
-  
-  .section-apre {
-    flex-direction: row;
-  }
-  
-  .section-preview {
-    width: 90%;
-  }
-  
-  .but {
-    width: ;
-  }
-  
-}
 
 body {
-  background-image: url(Images/7403975-material-escolar-fundo-padrao-sem-costura-vetor\ \(2\).jpg);
+  background: url(https://img.freepik.com/vetores-gratis/design-plano-de-fundo-escolar_23-2148587752.jpg);
+  background-repeat: repeat-y;
+  background-size: 100vw;
 }
 
 hr {
@@ -146,6 +129,7 @@ section {
     display: flex;
     flex-direction: column;
     gap: 18px;
+    padding-bottom: 32px;
 }
 
 li{
@@ -159,12 +143,12 @@ li{
 }
 
 .section-preview {
-    gap: 14px;
-    padding: 12px;
+  gap: 14px;
+  padding: 12px;
 }
 
 .h3-preview {
-    font-size: 16.5px;
+    font-size: 6vw;
 }
 
 .preview-dds {
@@ -183,8 +167,6 @@ li{
   text-decoration: none;
 }
 
-
-
 footer {
   display: flex;
   align-items: center;
@@ -195,7 +177,7 @@ footer {
 
 .span-header-f {
   font-family: 'Kanit', sans-serif;
-  font-size: 4.5vw;
+  font-size: 5vw;
   font-weight: 600;
   color: rgb(236, 233, 233);
 }
@@ -215,3 +197,160 @@ footer {
   align-items: center;
   gap: 16px;
 }
+
+.sbr {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 32px;
+  align-items: center;
+  border: 6px solid  rgb(62, 46, 165);
+  padding: 14px;
+}
+
+.sbr-h2 {
+  font-size: 9vw;
+  width: 50%;
+  background-color:rgb(62, 46, 165);
+  text-align: center;
+  border-radius: 4px;
+  color: beige;
+}
+
+.sbr-p-p {
+  text-align: left;
+}
+
+.sbr-ul {
+  list-style: circle;
+  font-size: 6vw;
+  left: 0;
+}
+
+.lis {
+  text-decoration: none;
+  text-align: left;
+}
+
+@media (min-width: 1200px){
+  
+  
+  main {
+    padding: 32px;
+  }
+  
+  .section-apre {
+    flex-direction: row;
+    padding: 32px;
+    width: 75%;
+  }
+  
+  .section-preview {
+    width: 60%;
+  }
+
+  .span-header {
+    font-size: 2.6vw;
+  }
+
+  .h2-apre {
+    font-size: 4vw;
+  }
+
+  .h3-preview {
+    font-size: 2.5vw;
+  }
+
+  .sect-pm {
+    width: 30%;
+  }
+
+  .p-dds {
+    font-size: 1.6vw;
+  }
+
+  .img-manch {
+    width: 75%;
+  }
+
+  .but {
+    width: 30%;
+    font-size: 1.3vw;
+  }
+
+  header {
+    height: 4vw;
+  }
+
+  .section-manch {
+    width: 80%;
+  }
+
+  .h1-manch {
+    font-size: 2vw;
+  }
+
+  .img-manch {
+  margin: auto;
+  width: 60%;
+  margin-bottom: 32px ;
+}
+
+.p-manchete {
+  text-align: left;
+  width: 70%;
+  margin-left: 32px;
+  font-size: 1.5vw;
+}
+
+.ul-m2 {
+  padding-left: 32px;
+}
+
+li {
+  font-size: 1.1vw;
+}
+
+.h3-m2 {
+  font-size: 2vw;
+}
+
+.manchete {
+  padding: 32px;
+}
+
+section {
+  padding: 24px;
+}
+
+footer {
+  height: 5vw;
+  
+}
+
+.span-header-f{
+  font-size: 3vw;
+}
+
+.but-vp {
+  font-size: 1.2vw;
+}
+
+.sbr {
+  width: 65%;
+  padding: 32px;
+}
+
+.sbr-h2 {
+  font-size: 2vw;
+  width: 20%;
+}
+
+.sbr-ul {
+  display: flex;
+  list-style: circle;
+}
+
+
+}
+
